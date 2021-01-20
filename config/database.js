@@ -6,6 +6,6 @@ const mysqlServiceName = process.env.DATABASE_SERVICE_NAME,
 module.exports = {
   host: mysqlServiceName,
   database: mysqlDatabase,
-  user: mysqlPassword,
-  password: mysqlUser
+  user: mysqlUser,
+  password: mysqlPassword
 };
